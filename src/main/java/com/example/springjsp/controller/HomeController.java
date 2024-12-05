@@ -20,7 +20,6 @@ public class HomeController {
 	@PostMapping("/calculateElapsedTime")
 	public String calculateElapsedTime(@RequestParam("timeInput") String timeInput, Model model) {
 		try {
-			System.out.println("Fucking ass hole coming...");
 			LocalTime inputTime = LocalTime.parse(timeInput);
 			LocalTime currentTime = LocalTime.now();
 
