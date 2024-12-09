@@ -25,7 +25,7 @@
 
 <c:if test="${not empty elapsedHours}">
     <div class="popup ${isElapsed9HoursOrMore ? 'green' : 'red'}">
-        <p>Elapsed Time: ${elapsedHours} hours</p>
+        <p>Elapsed Time: Minutues ${elapsedHours}:${elapsedMinutes} hours</p>
     </div>
 </c:if>
 
